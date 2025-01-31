@@ -7,7 +7,7 @@ pipeline {
                 script {
                     sh '''
                         echo "Cloning the GitHub repository..."
-                        git clone https://github.com/U01FC/jenkins-apache.git /home/ubuntu/09-Jenkins || echo "Repository is cloned"
+                        git clone https://github.com/U01FC/jenkins-apache.git /tmp/apache-deployment || echo "Repository is cloned"
                     '''
                 }
             }
